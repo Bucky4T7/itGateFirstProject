@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #5a3e36;
+    background-color: #f4e8d7;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #d4a373;
+    position: relative;
+}
+
+.header img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #5a3e36;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    color: #fff;
+}
+
+.header h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #5a3e36;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    color: #5a3e36;
+}
+
+.header img[alt="Bakery"] {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.but1,
+.but2 {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.but1 {
+    background-color: #5a3e36;
+    color: #fff;
+}
+
+.but2 {
+    background-color: #d4a373;
+    color: #5a3e36;
+}
+
+.but1:hover {
+    background-color: #3e2a24;
+}
+
+.but2:hover {
+    background-color: #b3875e;
+}
+
+.About {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.About img {
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.About ul {
+    list-style: none;
+    padding: 0;
+}
+
+.About ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #5a3e36;
+}
+
+.baking1 {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.baking1 h1 {
+    font-size: 2.5rem;
+    color: #5a3e36;
+}
+
+.baking1 p {
+    font-size: 1.1rem;
+    color: #5a3e36;
+}
+
+.baking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4e8d7;
+}
+
+.baking-container figure {
+    margin: 20px 0;
+}
+
+.baking-container figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #5a3e36;
+}
+
+.burger,
+.group,
+.cookies {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.burger img,
+.group img,
+.cookies img {
+    border-radius: 50%;
+    border: 5px solid #d4a373;
+    width: 200px;
+    height: 200px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #5a3e36;
+}
+
+.contacti {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contacti h2 {
+    font-size: 2.5rem;
+    color: #5a3e36;
+}
+
+.contacti p {
+    font-size: 1.1rem;
+    color: #5a3e36;
+}
+
+.contacti ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacti ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #5a3e36;
+}
+
+.Location {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.Location h2 {
+    font-size: 2.5rem;
+    color: #5a3e36;
+}
+
+.Location p {
+    font-size: 1.1rem;
+    color: #5a3e36;
+}
+
+.maps {
+    border-radius: 20px;
+    border: 5px solid #d4a373;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: #5a3e36;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
